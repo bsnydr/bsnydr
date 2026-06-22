@@ -13,5 +13,3 @@ A few things I've built:
 - **[pet-brain](https://github.com/bsnydr/pet-brain)** — a shared Notion-backed log for our puppy, with Claude Code skills for advice. Built for me and my partner.
 
 Based in Barcelona. [LinkedIn](https://es.linkedin.com/in/bsnydr) · [Twitter](https://twitter.com/bsnydr)
-
-<!-- Note: this README lives in a repo named `bsnydr` (github.com/bsnydr/bsnydr) to render on the profile. Repo links resolve once each repo is flipped public. -->
