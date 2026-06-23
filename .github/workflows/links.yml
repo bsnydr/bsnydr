@@ -1,0 +1,23 @@
+name: links
+on:
+  push:
+  pull_request:
+  schedule:
+    # Weekly, so a linked repo going private is caught even without a push.
+    - cron: "0 9 * * 1"
+permissions:
+  contents: read
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # LinkedIn and Twitter block automated checkers (403/999), so exclude them
+      # to avoid false failures; the repo links are what actually matter here.
+      - name: Check README links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: "--no-progress --exclude linkedin\\.com --exclude twitter\\.com README.md"
+          fail: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
