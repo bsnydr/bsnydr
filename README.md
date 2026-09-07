@@ -11,5 +11,6 @@ A few things I've built:
 - **[telegram-context](https://github.com/bsnydr/telegram-context)** — turns forwarded chat into tagged markdown context an AI coding agent can read, with optional live synthesis.
 - **[wc-feed](https://github.com/bsnydr/wc-feed)** — serverless iCalendar feed with CDN caching and graceful fallback. [Live](https://wc2026matches.netlify.app/worldcup.ics).
 - **[pet-brain](https://github.com/bsnydr/pet-brain)** — a shared Notion-backed log for our puppy, with Claude Code skills for advice. Built for me and my partner.
+- **[usagebar](https://github.com/bsnydr/usagebar)** — macOS menu-bar tracker for Claude and ChatGPT subscription limits: reads the official apps' sign-ins read-only, never refreshes a token, one Swift file with no dependencies.
 
 Based in Barcelona. [LinkedIn](https://es.linkedin.com/in/bsnydr) · [Twitter](https://twitter.com/bsnydr)
