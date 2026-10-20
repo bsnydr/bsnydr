@@ -2,6 +2,7 @@ name: links
 on:
   push:
   pull_request:
+  workflow_dispatch:
   schedule:
     # Weekly, so a linked repo going private is caught even without a push.
     - cron: "0 9 * * 1"

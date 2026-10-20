@@ -6,11 +6,11 @@ Most recently Head of Marketing for [elizaOS](https://github.com/elizaos) (open-
 
 A few things I've built:
 
-- **[finance-reconciler](https://github.com/bsnydr/finance-reconciler)** — reconciles holdings and FIFO P&L across exchanges, on-chain wallets, and banks into one set of numbers you can trust. The sanitized core of a personal financial dashboard.
-- **[organizer](https://github.com/bsnydr/organizer)** — local-LLM file organizer (Ollama): confidence gates, per-run undo, on-device inference so file contents never leave the machine.
-- **[telegram-context](https://github.com/bsnydr/telegram-context)** — turns forwarded chat into tagged markdown context an AI coding agent can read, with optional live synthesis.
-- **[wc-feed](https://github.com/bsnydr/wc-feed)** — serverless iCalendar feed with CDN caching and graceful fallback. [Live](https://wc2026matches.netlify.app/worldcup.ics).
-- **[pet-brain](https://github.com/bsnydr/pet-brain)** — a shared Notion-backed log for our puppy, with Claude Code skills for advice. Built for me and my partner.
-- **[usagebar](https://github.com/bsnydr/usagebar)** — macOS menu-bar tracker for Claude and ChatGPT subscription limits: reads the official apps' sign-ins read-only, never refreshes a token, one Swift file with no dependencies.
+- **[finance-reconciler](https://github.com/bsnydr/finance-reconciler)** — an offline engine for reconciling holdings and FIFO P&L across exchanges, wallets, banks and brokers. Public example with synthetic data.
+- **[UsageBar](https://github.com/bsnydr/usagebar)** — a macOS menu-bar app for Claude and ChatGPT/Codex subscription usage and reset times. One Swift file, no third-party dependencies.
+- **[pet-brain](https://github.com/bsnydr/pet-brain)** — a sanitised example of a Telegram assistant for logging a dog's life and answering questions from its history, backed by Markdown files in Git.
+- **[organizer](https://github.com/bsnydr/organizer)** — a macOS file organizer using local Ollama inference, with a confidence gate for uncertain files and an undo script for each run.
+- **[telegram-context](https://github.com/bsnydr/telegram-context)** — turns forwarded Telegram messages and a short note into tagged Markdown context for a coding assistant, with optional synthesis.
+- **[wc-feed](https://github.com/bsnydr/wc-feed)** — a completed seasonal project: a serverless iCalendar feed for the 2026 World Cup, with caching and a static fallback. [Demo feed](https://wc2026matches.netlify.app/worldcup.ics).
 
 Based in Barcelona. [LinkedIn](https://es.linkedin.com/in/bsnydr) · [Twitter](https://twitter.com/bsnydr)
